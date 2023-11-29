@@ -50,7 +50,7 @@ export class Jogador implements IJogador {
         this._erros = erros;
     }
 
-    // Métodos existentes...
+     // Métodos criados
     public obterNome(): string {
         return this._nome;
     }

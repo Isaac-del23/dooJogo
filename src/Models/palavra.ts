@@ -8,7 +8,7 @@ export class Palavras {
         this.categorias = [
             {
                 nome: "Filmes",
-                palavras: ["titanic", "avatar", "inception", "interstellar"]
+                palavras: ["titanic", "avatar", "Thor", "Vingadores"]
             },
             {
                 nome: "Animais",
