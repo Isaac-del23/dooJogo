@@ -66,4 +66,4 @@ O polimorfismo é observado nos métodos que aceitam diferentes implementações
 
 # Contribuições
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas, propor melhorias.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas e propor melhorias.
