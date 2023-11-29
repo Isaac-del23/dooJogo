@@ -4,8 +4,6 @@ Projeto De Jogo de forca com TypeScript, para matéria de Desenvolvimento Orient
 # Autor
 Isaac Caetano 
 
-
-
 # Como jogar
 
 Instalação: certifique-se de ter o Node.js instalado em seu ambiente. Clone o repositório para sua máquina local e execute o seguinte comando para instalar as dependências: execute npm install
