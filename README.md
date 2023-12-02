@@ -1,10 +1,12 @@
 # dooJogo
+
 Projeto De Jogo de forca com TypeScript, para matéria de Desenvolvimento Orientado a Objeto da Faculdade
 
-# Autor
+## Autor
+
 Isaac Caetano
 
-# Como Executar
+### Como Executar
 
 Siga os passos abaixo para iniciar o Jogo da Forca:
 
@@ -13,15 +15,14 @@ Siga os passos abaixo para iniciar o Jogo da Forca:
 3. Execute o comando `npm install` para instalar as dependências.
 4. Execute o jogo com `npm start`.
 
-
-### Jogabilidade:
+### Jogabilidade
 
 * Siga as instruções fornecidas no console para configurar o jogo.
 * Escolha a quantidade de jogadores, nomes dos jogadores e a categoria da palavra.
 * Tente adivinhar a palavra, fornecendo letras , quando completa 50% da palavra você deve tentando adivinhar a palavra completa, se nao souber passa a vez.
 * Ganhe pontos por acertar letras e palavras e continue jogando por várias rodadas.
-  
-# Estrutura do Projeto
+
+## Estrutura do Projeto
 
 * src/: Contém o código-fonte TypeScript.
 * Controller/: Contém   à lógica do jogo.
@@ -29,7 +30,7 @@ Siga os passos abaixo para iniciar o Jogo da Forca:
 * View/: Implementação da interface do usuário no console.
 * index.ts: Ponto de entrada da aplicação.
 
-# Conceitos de POO Utilizados
+## Conceitos de POO Utilizados
 
 ### 1. Classe e Instanciação de Objetos
 
@@ -41,11 +42,11 @@ O encapsulamento é aplicado ao definir atributos privados nas classes, como `_n
 
 ### 3. Relacionamentos
 
-- **Relacionamento Simples:** A instância de `ConsoleView` é passada como parâmetro para o construtor de `GameController`.
-  
-- **Agregação:** A classe `Jogo` possui instâncias de `Jogador` e `Palavras`.
+ **Relacionamento Simples:** A instância de `ConsoleView` é passada como parâmetro para o construtor de `GameController`.
 
-- **Herança:** `ConsoleView` implementa a interface `IInputOutput`.
+ **Agregação:** A classe `Jogo` possui instâncias de `Jogador` e `Palavras`.
+
+ **Herança:** `ConsoleView` implementa a interface `IInputOutput`.
 
 ### 4. Polimorfismo
 
@@ -53,17 +54,16 @@ O polimorfismo é observado nos métodos que aceitam diferentes implementações
 
 ### 5. Interfaces e Classes Abstratas
 
-- **Interface:** `IInputOutput` é uma interface que define métodos para interação com entrada/saída.
+ **Interface:** `IInputOutput` é uma interface que define métodos para interação com entrada/saída.
 
-- **Classe Abstrata:** Não está presente no código fornecido, mas pode ser uma adição para fornecer uma base comum para diferentes tipos de jogos.
+ **Classe Abstrata:** Não está presente no código fornecido, mas pode ser uma adição para fornecer uma base comum para diferentes tipos de jogos.
 
 ### 6. Sobrecarga e Sobrescrita de Métodos
 
-- **Sobrecarga:** Métodos em `ConsoleView` aceitam diferentes tipos de parâmetros.
+ **Sobrecarga:** Métodos em `ConsoleView` aceitam diferentes tipos de parâmetros.
 
-- **Sobrescrita:** O método `exibirMensagem` em `ConsoleView` implementa a interface `IInputOutput`.
+ **Sobrescrita:** O método `exibirMensagem` em `ConsoleView` implementa a interface `IInputOutput`.
 
-
-# Contribuições
+## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas e propor melhorias.
