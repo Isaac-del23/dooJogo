@@ -2,7 +2,7 @@
 Projeto De Jogo de forca com TypeScript, para matéria de Desenvolvimento Orientado a Objeto da Faculdade
 
 # Autor
-Isaac Caetano 
+Isaac Caetano
 
 # Como Executar
 
@@ -54,13 +54,13 @@ O polimorfismo é observado nos métodos que aceitam diferentes implementações
 ### 5. Interfaces e Classes Abstratas
 
 - **Interface:** `IInputOutput` é uma interface que define métodos para interação com entrada/saída.
-  
+
 - **Classe Abstrata:** Não está presente no código fornecido, mas pode ser uma adição para fornecer uma base comum para diferentes tipos de jogos.
 
 ### 6. Sobrecarga e Sobrescrita de Métodos
 
 - **Sobrecarga:** Métodos em `ConsoleView` aceitam diferentes tipos de parâmetros.
-  
+
 - **Sobrescrita:** O método `exibirMensagem` em `ConsoleView` implementa a interface `IInputOutput`.
 
 
